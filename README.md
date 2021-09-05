@@ -4,7 +4,8 @@ Detect objects in an image and draw bounding boxes, boundaries around objects.
 ## Run the file as
 
 python Run me.py 
-**Note:
+
+Note:
 1. The python file and image file should be in the same folder
 2. Change the image file path in this statement before running the python file
    image = cv2.imread('/content/drive/MyDrive/AI_ML_Git/baboon.png')
