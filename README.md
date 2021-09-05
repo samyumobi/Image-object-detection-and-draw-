@@ -1,6 +1,14 @@
 # Image-object-detection-and-draw-
 Detect objects in an image and draw bounding boxes, boundaries around objects.
 
+## Run the file as
+
+python Run me.py 
+**Note:
+1. The python file and image file should be in the same folder
+2. Change the image file path in this statement before running the python file
+   image = cv2.imread('/content/drive/MyDrive/AI_ML_Git/baboon.png')
+
 ### Approach to draw borders and contours:
 
 The pixels present in an image background form contour. The boundary pixels with same color and intensity are Contours.
